@@ -1,0 +1,160 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+body{
+
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(skyblue,#ffafcc);
+    color: white;
+}
+
+
+#main-img{
+    width:200px;
+    border-radius: 100px;
+    border: 5px solid #ffafcc;
+}
+
+h1,h2,h3,h4,p{
+        text-shadow: 0px 0px 5px black;
+}
+span{
+    background-color: #ffafcc;
+    padding:5px 10px ;
+    border-radius:5px;
+}
+
+.gift-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+}
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius:5px;
+    background-image: url(gift-box-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.gift-img:hover{
+    background-image: url(happy.gif);
+    background-size: cover;
+}
+
+
+
+.react-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+}
+
+.react-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius:5px;
+    background-image: url(gift-box-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.react-img:hover{
+    background-image: url(Shocked\ .gif);
+    background-size: cover;
+}
+
+.describe-section{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+}
+
+.describe-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius:5px;
+    background-image: url(gift-box-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.describe-img:hover{
+    background-image: url(g.gif);
+    background-size: cover;
+}
+
+
+.badass-section{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+}
+
+.badass-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius:5px;
+    background-image: url(gift-box-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.badass-img:hover{
+    background-image: url(badass.gif);
+    background-size: cover;
+}
+
+
+.final-section{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+}
+
+.final-img{
+    width: 400px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius:5px;
+    background-image: url(gift-box-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.final-img:hover{
+    background-image: url(tost.gif);
+    background-size: cover;
+}
+
+
+.footer{
+    width: 400px;
+    margin: 40px auto 20px ;
+    text-align: center;
+    font-style: italic;
+}
+a{
+    color: white;
+}
